@@ -9,11 +9,13 @@ public class TerminalAccount {
         System.out.println("Please, enter the account number: ");
         int account = scanner.nextInt();
 
-        System.out.println("Please, enter the agency number: ");
+        System.out.println("Please, enter the agency number: ");.
         String agency = scanner.next();
 
+        scanner.nextLine();
+
         System.out.println("Please, enter your name: ");
-        String name = scanner.next();
+        String name = scanner.nextLine();
 
         System.out.println("Great, " + name + "! To finish, enter your balance: ");
         double balance = scanner.nextDouble();
